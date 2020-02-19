@@ -1,5 +1,5 @@
 <h1>
-    This repository purpose is to set my resume as a Webpage
+    This repository's purpose is to set my resume as a Webpage
 </h1>
 <body>
     <p>
