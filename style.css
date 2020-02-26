@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.main-container{
+    overflow: auto;
+}
+
+@media (min-width:600px) and (max-width:990px){
+    .left-side, .right-side{
+        width: 50%;
+        float: left;
+        
+    }
+}
+
+@media (min-width:991px){
+    .left-side{
+        width: 30%;
+        float: left;
+    }
+    .right-side{
+        float: right;
+        width: 70%;
+    }
+}
+
+legend{
+    font-weight: 900;
+}
+
+fieldset > span{
+    color: #42579C;
+    border: 1px solid #6278B0;
+    padding: 20px 40 px;
+    background-color: #CCE9F8;
+    display: block;
+}
+
+.formElement{
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.optionContainer{
+    margin-top: 15px;
+}
+
+h3{
+    margin: 0;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+ul{
+    background-color: #CCCCCC;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+li:hover{
+    background-color: #9999999;
+    color : white;
+    cursor: pointer;
+}
+
+table{
+    margin: 1px auto;
+    border: 1px solid #3e9714;
+    border-collapse: collapse;
+}
+
+th.theading{
+    background-color: #55B3C5;
+    color: white;
+}
+
+td, th{
+    color: #999999;
+    border: solid #f4f4f4;
+    padding: 15px 35px;
+}
+
+tr:hover{
+    color: #555555;
+    background-color: #f4f4f4;
+}
